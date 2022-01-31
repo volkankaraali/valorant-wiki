@@ -1,0 +1,100 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.detailImg {
+  width: 350px;
+}
+
+.detailCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+
+/* card header */
+.detailCardHeader {
+  margin-bottom: 20px;
+}
+.detailCardHeader > h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--red);
+  text-align: center;
+}
+
+.detailCardHeader > p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* role */
+.detailCardRole {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.detailCardRole > img {
+  background-color: var(--red);
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.detailCardRole > span {
+  font-weight: 600;
+}
+
+/* abilities */
+.detailCardAbilities {
+  margin-bottom: 20px;
+}
+.detailCardAbilities > h5 {
+  color: var(--red);
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.detailCardAbilityItem {
+  background-color: var(--darkblue);
+  color: var(--red);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.detailCardAbilityItem > h3 {
+  font-weight: 600;
+}
+.detailCardAbilityItem > p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+  overflow: auto;
+}
+.detailCardAbilityItem > img {
+  display: flex;
+  align-self: center;
+  width: 50px;
+}
+
+/* voice */
+.detailCardVoice {
+}
+
+.detailCardVoice > h3 {
+  color: var(--red);
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
