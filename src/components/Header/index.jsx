@@ -56,10 +56,10 @@ function Header() {
                         width="200px"
                         focusBorderColor="none"
                     >
-                        <option value hidden>Select Language</option>
+
+                        <option value="en-US">English</option>
                         <option value="ar-AE">Arabic</option>
                         <option value="de-DE">German</option>
-                        <option value="en-US" >English</option>
                         <option value="es-MX">Spanish (Mexico)</option>
                         <option value="es-ES">Spanish (Ecuador)</option>
                         <option value="fr-FR">French</option>

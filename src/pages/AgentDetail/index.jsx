@@ -12,7 +12,7 @@ function AgentDetail() {
     let { agents } = useValoContext();
 
     let agent = agents.find(a => a.displayName.toLowerCase() === title)
-    console.log(agent?.voiceLine?.mediaList[0]?.wave)
+
     return (
 
         <Container maxW='container.xl'>

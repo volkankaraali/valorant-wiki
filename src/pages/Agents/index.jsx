@@ -1,7 +1,7 @@
 import { Box, Container, SimpleGrid } from '@chakra-ui/react';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Card from '../../components/Card';
+import AgentCard from '../../components/AgentCard';
 
 //context improt
 import { useValoContext } from '../../context/ValoContext';
@@ -19,7 +19,7 @@ function Agents() {
                         agents.map((agent) => (
                             <Link to={`/agent/${agent.displayName.toLowerCase()}`} key={agent.uuid}>
                                 <Box height='400px'>
-                                    <Card agent={agent} />
+                                    <AgentCard agent={agent} />
                                 </Box>
                             </Link>
 
