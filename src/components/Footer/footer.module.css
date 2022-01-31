@@ -1,0 +1,11 @@
+footer {
+  background-color: #364966;
+  height: 150px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: var(--red);
+}
+
+a:hover {
+  text-decoration: underline;
+}
