@@ -1,0 +1,19 @@
+.home {
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.button > a {
+  background-color: var(--red);
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: var(--darkblue);
+  font-weight: 600;
+}
+.button > a:hover {
+  color: #fff;
+}

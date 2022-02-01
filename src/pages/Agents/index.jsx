@@ -17,7 +17,7 @@ function Agents() {
                 <SimpleGrid columns={{ sm: 2, md: 2, lg: 3, xl: 4 }} spacing='30px'>
                     {
                         agents.map((agent) => (
-                            <Link to={`/agent/${agent.displayName.toLowerCase()}`} key={agent.uuid}>
+                            <Link style={{ textDecoration: "none" }} to={`/agent/${agent.displayName.toLowerCase()}`} key={agent.uuid}>
                                 <Box height='400px'>
                                     <AgentCard agent={agent} />
                                 </Box>
