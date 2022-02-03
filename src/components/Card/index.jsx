@@ -6,7 +6,7 @@ import React from 'react';
 import styles from "./card.module.css"
 
 function Card({ data }) {
-    console.log(data.displayName)
+
     return (
         <div className={styles.card}>
             <img src={data?.fullPortrait} alt=''></img>

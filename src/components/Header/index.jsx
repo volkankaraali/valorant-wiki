@@ -33,14 +33,6 @@ function Header() {
                             <NavLink
                                 className={({ isActive }) =>
                                     isActive ? styles.activeLink : undefined
-                                } to="/maps">
-                                Maps
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                className={({ isActive }) =>
-                                    isActive ? styles.activeLink : undefined
                                 } to="/ranks">
                                 Ranks
                             </NavLink>
@@ -53,7 +45,7 @@ function Header() {
                         onChange={handleLanguage}
                         bg="#fa4454"
                         borderColor="#042e27"
-                        width="200px"
+                        width="110px"
                         focusBorderColor="none"
                     >
 

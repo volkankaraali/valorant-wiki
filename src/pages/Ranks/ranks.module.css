@@ -1,0 +1,17 @@
+.rankCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  font-family: "Roboto" !important;
+  font-weight: 600 !important;
+  color: red;
+}
+
+.rankCard > img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}

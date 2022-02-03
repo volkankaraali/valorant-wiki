@@ -1,9 +1,14 @@
 footer {
   background-color: #364966;
-  height: 150px;
+  height: 100px;
   margin-top: 20px;
   font-size: 1.2rem;
   color: var(--red);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a:hover {
